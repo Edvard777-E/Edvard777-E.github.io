@@ -1,0 +1,415 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+[class*="__container"] {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    height: 84px;
+}
+
+.header__container {
+    background-color: #F5F7FA;
+    width: 100%;
+    height: 84px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo_link {
+    color: #000;
+    font-size: 28px;
+}
+
+.menu {
+    display: flex;
+    gap: 10px;
+}
+
+.menu.list {
+    width: 120px;
+    height: 80px;
+}
+
+.menu_link {
+    color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.das {
+    display: flex;
+    text-align: center;
+    gap: 20px;
+
+    li {
+        color: #4CAF4F;
+        text-align: center;
+    }
+
+    button {
+        width: 91px;
+        height: 40px;
+        gap: 10px;
+        border-radius: 6px 6px 6px 6px;
+        background-color: #4CAF4F;
+    }
+}
+
+.box {
+    background: #F5F7FA;
+    width: 1440px;
+    height: 599px;
+    display: flex;
+    padding: 96px 144px 96px 144px;
+    gap: 104px;
+    opacity: 0px;
+}
+
+.box1 {
+    width: 657px;
+    height: 276px;
+    gap: 32px;
+    opacity: 0px;
+
+    span {
+        color: #4CAF4F;
+    }
+
+    button {
+        width: 128px;
+        height: 52px;
+        background-color: #4CAF4F;
+        gap: 10px;
+        border-radius: 4px 4px 4px 4px;
+    }
+}
+
+.box2 {
+    img {
+        width: 391px;
+        height: 407px;
+    }
+}
+
+.box4 {
+    text-align: center;
+}
+
+.box5 {
+    display: flex;
+    gap: 200px;
+}
+
+.das1 {
+    width: 1440px;
+    height: 416px;
+    gap: 16px;
+    opacity: 0px;
+    text-align: center;
+}
+
+.das2 {
+    color: #fff;
+}
+
+.das3 {
+    display: flex;
+    color: #717171;
+    align-items: center;
+    justify-content: center;
+}
+
+.das4 {
+    width: 299px;
+    height: 260px;
+    padding: 24px 32px 24px 32px;
+    gap: 8px;
+}
+
+.mein {
+    display: flex;
+    width: 1440px;
+    height: 433px;
+    padding: 0px 144px 0px 144px;
+    gap: 0px;
+}
+
+.mein1 {
+    display: flex;
+    width: 442px;
+    height: 433px;
+    padding: 52px 0.47px 52.01px 0px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.mein2 {
+    width: 661px;
+    height: 268px;
+    padding: 100px;
+    gap: 32px;
+    opacity: 0px;
+
+    button {
+        width: 151px;
+        height: 52px;
+        background: #4CAF4F;
+        padding: 14px 32px 14px 32px;
+        gap: 10px;
+        border-radius: 4px 4px 4px 4px;
+        opacity: 0px;
+    }
+}
+
+.main {
+    width: 1440px;
+    height: 288px;
+    padding: 64px 144px 64px 144px;
+    justify-content: space-between;
+    background-color: #F5F7FA;
+    display: flex;
+}
+
+.main1 {
+    width: 540px;
+    height: 120px;
+    gap: 8px;
+
+    span {
+        h1 {
+            color: #4CAF4F;
+        }
+    }
+}
+
+.main2 {
+    width: 540px;
+    height: 160px;
+    gap: 40px;
+}
+
+.main3 {
+    display: flex;
+    gap: 15px;
+}
+
+.foot {
+    width: 1440px;
+    height: 500px;
+    display: flex;
+    padding: 0px 144px 0px 144px;
+    justify-content: space-between;
+}
+
+.foot1 {
+    width: 441px;
+    height: 433px;
+}
+
+.foot2 {
+    width: 550px;
+    height: 224px;
+    gap: 32px;
+    color: #4D4D4D;
+
+    button {
+        width: 151px;
+        height: 52px;
+        color: #fff;
+        background-color: #4CAF4F;
+        padding: 14px 32px 14px 32px;
+        gap: 10px;
+        border-radius: 4px 4px 4px 4px;
+    }
+}
+
+.arm {
+    width: 100%;
+    height: 390px;
+    padding: 32px 144px 32px 144px;
+    gap: 78px;
+    background-color: #F5F7FA;
+    display: flex;
+
+    img {
+        width: 326px;
+        height: 326px;
+        gap: 0px;
+        border-radius: 8px 8px 8px 8px;
+    }
+}
+
+.arm2 {
+    width: 748px;
+    height: 244px;
+    gap: 16px;
+}
+
+.arm3 {
+    color: #717171;
+    display: block;
+
+    h3 {
+        color: #4CAF4F;
+    }
+}
+
+.arm4 {
+    width: 748px;
+    height: 60px;
+    gap: 8px;
+}
+
+.arm5 {
+    width: 748px;
+    height: 48px;
+    gap: 41px;
+    display: flex;
+
+    img {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+.arm6 {
+    display: flex;
+
+    img {
+        width: 50px;
+    }
+}
+
+.armenia {
+    width: 100%;
+    height: 506px;
+    gap: 16px;
+}
+
+.armenia1 {
+    width: 1, 110px;
+    height: Hug (124px);
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.armeina2 {
+    width: 1, 440px;
+    height: 366px;
+    padding: 0px 144px 0px 144px;
+    justify-content: space-between;
+}
+
+.armeina5 {
+    width: 748px;
+    height: 48px;
+    gap: 41px;
+    display: flex;
+
+    img {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+.armenia3 {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+}
+
+.armenia4 {
+    width: 299px;
+    height: 260px;
+    padding: 24px 32px 24px 32px;
+    gap: 8px;
+    text-align: center;
+    position: relative;
+}
+
+.footer__container {
+    width: 1440px;
+    height: 628px;
+    top: 3748px;
+}
+
+.foter {
+    width: 1440px;
+    height: 300px;
+    background: #F5F7FA;
+    padding: 32px 0px 32px 0px;
+    gap: 32px;
+    align-items: center;
+    justify-content: center;
+}
+
+.foter1 {
+    text-align: center;
+
+    button {
+        width: 178px;
+        height: 52px;
+        background: #4CAF4F;
+        padding: 14px 32px 14px 32px;
+        gap: 8px;
+        border-radius: 4px 4px 4px 4px;
+        color: #ffff;
+    }
+}
+
+.foter2 {
+    width: 1440px;
+    height: 328px;
+    display: flex;
+    background: #263238;
+    padding: 64px 165px 64px 165px;
+    gap: 125px;
+}
+
+.foter3 {
+    width: 350px;
+    height: 189.67px;
+    gap: 40px;
+}
+
+.fot {
+    color: #fff;
+    font-size: 28px;
+}
+
+.foter4 {
+    width: 635px;
+    height: 200px;
+    color: #F5F7FA;
+    display: flex;
+    gap: 30px;
+}
+
+.foter5 {
+    width: 160px;
+    height: 200px;
+    gap: 24px;
+}
+
+.foter6 {
+    width: 200px;
+    height: 148px;
+    gap: 12px;
+}
